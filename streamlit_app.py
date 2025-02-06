@@ -11,7 +11,7 @@ st.title("Penghitung Jarak Tempuh Kendaraan per Liter")
 
 # Menambahkan logo di bagian atas dan memastikan logo berada di tengah
 logo_path = 'aranademi.png'  # Ganti dengan path logo yang Anda miliki
-st.image(logo_path, use_column_width=True, caption='Logo Aplikasi', output_format='PNG')
+st.image(logo_path, use_container_width=True, caption='Logo Aplikasi', output_format='PNG')
 
 # Styling agar logo di atas berada di tengah
 st.markdown("""
