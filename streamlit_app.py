@@ -26,7 +26,7 @@ st.markdown("""
 # Input data
 km_awal = st.number_input("Masukkan KM saat isi bahan bakar pertama:", min_value=0)
 km_akhir = st.number_input("Masukkan KM saat isi bahan bakar kedua:", min_value=0)
-liter = st.number_input("Masukkan jumlah liter bahan bakar yang digunakan:", min_value=0.0)
+liter = st.number_input("Masukkan jumlah liter bahan bakar yang dibeli pada pengisian kedua:", min_value=0.0)
 
 # Proses perhitungan
 if km_awal and km_akhir and liter > 0:
