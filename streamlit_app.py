@@ -33,6 +33,6 @@ if km_awal and km_akhir and liter > 0:
     jarak_per_liter = hitung_jarak_per_liter(km_awal, km_akhir, liter)
     
     # Menampilkan hasil
-    st.write(f"Jarak tempuh kendaraan per liter adalah {jarak_per_liter:.2f} km/liter.")
+    st.write(f"Jarak tempuh kendaraan anda per liter adalah {jarak_per_liter:.2f} km/liter.")
 else:
     st.write("Masukkan semua nilai dengan benar.")
