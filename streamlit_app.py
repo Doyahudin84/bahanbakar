@@ -10,7 +10,7 @@ def hitung_jarak_per_liter(km_awal, km_akhir, liter):
 st.title("Penghitung Jarak Tempuh Kendaraan per Liter")
 
 # Menambahkan logo di bagian atas dan memastikan logo berada di tengah
-logo_path = 'path_to_your_logo.png'  # Ganti dengan path logo yang Anda miliki
+logo_path = 'aranademi.png'  # Ganti dengan path logo yang Anda miliki
 st.image(logo_path, use_column_width=True, caption='Logo Aplikasi', output_format='PNG')
 
 # Styling agar logo di atas berada di tengah
