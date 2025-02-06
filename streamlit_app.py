@@ -7,7 +7,7 @@ def hitung_jarak_per_liter(km_awal, km_akhir, liter):
     return jarak_per_liter
 
 # Judul aplikasi
-st.title(use_container_width=True, "Jarak Tempuh Kendaraan")
+st.title("Jarak Tempuh Kendaraan")
 
 # Menambahkan logo di bagian atas dan memastikan logo berada di tengah
 logo_path = 'aranademi.png'  # Ganti dengan path logo yang Anda miliki
